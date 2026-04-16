@@ -1,0 +1,18 @@
+_min_copier_version: "9.0.0"
+
+project_name:
+  type: str
+  help: "Name of your MCU project"
+  default: "mcu_project"
+
+python_executable:
+  type: str
+  help: "Path to Python executable with infineoncopilot installed"
+  default: "python"
+
+_skip_if_exists:
+  - "*.c"
+  - "*.h"
+
+_exclude:
+  - ".copier-answers.yml"

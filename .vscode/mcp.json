@@ -1,0 +1,9 @@
+{
+    "servers": {
+        "infineon-copilot": {
+            "type": "stdio",
+            "command": "D:/Private/infi_copilot/.venv/Scripts/python.exe",
+            "args": ["-m", "infineoncopilot.server"]
+        }
+    }
+}
